@@ -1,13 +1,13 @@
 name: testing develop-branch
-# run test on develop
+# run test on develop branch
 on:
-   pull_request:
+  pull_request:
     - branches:
       - develop
 jobs:
-    test:
-     runs-on: ubuntu
-     steps:
+  test:
+    runs-on: ubuntu
+    steps:
       - name: checkout code
         uses: actions/checkout@v4
       - name: install
@@ -15,7 +15,7 @@ jobs:
       - name: Cypress test
         uses: cypress-io/github-action@v6
         with:
-         build: npm run build   
-         start: npm run start
-         component: true
+          build: npm run build   
+          start: npm run start
+          component: true
     
