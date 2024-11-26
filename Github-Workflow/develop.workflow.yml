@@ -1,0 +1,20 @@
+name: testing develop-branch
+on:
+   pull_request:
+  - branches:
+    - develop
+jobs:
+    test:
+     runs-on: ubuntu
+     steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+      - name: install
+        run:  npm install
+      - name: Cypress test
+        uses: cypress-io/github-action@v6
+        with:
+         build: npm run build   
+         start: npm run start
+         component: true
+    
