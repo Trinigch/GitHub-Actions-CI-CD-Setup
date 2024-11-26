@@ -12,6 +12,7 @@ This project demonstrates the implementation of a CI/CD pipeline using GitHub Ac
 -node.js
 -Express.js
 -MongoDB
+-GitHub-Actions
 
 
 ## Installation
@@ -19,18 +20,22 @@ This project demonstrates the implementation of a CI/CD pipeline using GitHub Ac
 npm install 
 
 
-
 ## Usage
 
 To start the test, run the followings commands:
 
  - npm run build && npm run seed && npm run start:dev
- - npm run test
+ - npm run render-build
+ - npm start
 
 # Github Link
 
+https://github.com/Trinigch/GitHub-Actions-CI-CD-Setup.git
 
 ## Deployed Link 
+
+https://github-actions-ci-cd-setup-e12t.onrender.com
+
 
 
 ## Credits
