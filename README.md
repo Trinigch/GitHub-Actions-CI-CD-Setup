@@ -29,11 +29,8 @@ To start the test, run the followings commands:
 
 # Github Link
 
-https://github.com/Trinigch/Tech-Quiz-Test-Suite.git
 
-##  The walkthrough video 
-
-https://drive.google.com/file/d/10i-JfoGaZdmQNQ7Hl1lcp5VxsqUMyZq5/view
+## Deployed Link 
 
 
 ## Credits
